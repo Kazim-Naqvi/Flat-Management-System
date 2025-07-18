@@ -1,6 +1,6 @@
 def search_price():
     try:
-        with open(r"C:\Users\kaznq\OneDrive\Desktop\Project\flats.txt", 'r') as file:
+        with open("flats.txt", 'r') as file:
             lines = file.readlines()
 
         flats = []
