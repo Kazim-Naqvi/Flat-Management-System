@@ -23,7 +23,7 @@ while True:
 
     match n:
         case 1:
-            df = pd.read_csv(r"C:\Users\kaznq\OneDrive\Desktop\Project\flats.txt",header=0)
+            df = pd.read_csv("flats.txt",header=0)
             df.index = range(1, len(df) + 1)
             print(df)
         case 2:
