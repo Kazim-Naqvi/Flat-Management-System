@@ -1,7 +1,7 @@
 import csv
 
 def search_by_locality():
-    file_path = r"C:\Users\kaznq\OneDrive\Desktop\Project\flats.txt"
+    file_path = "flats.txt"
     search_locality = input("Enter the locality to search for: ").strip().lower()
 
     try:
