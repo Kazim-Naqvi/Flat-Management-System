@@ -1,7 +1,7 @@
 import pandas as pd
 
 def remove_flat_by_index():
-    file_path = r"C:\Users\kaznq\OneDrive\Desktop\Project\flats.txt" # Ensure this is in the same folder as your script
+    file_path = "flats.txt" # Ensure this is in the same folder as your script
 
     try:
         # Read the data
