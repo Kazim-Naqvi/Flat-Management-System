@@ -1,0 +1,6 @@
+flatId,locality,bhk,price_per_sqft,Availability,builder
+1001,Whitefield,3,10000,yes,Prestige
+1002,Andheri,2,12000,yes,Sky
+1003,Chhatribagh,3,20000,yes,Oberoi
+1004,Whitefield,1,8000,yes,prestige
+1005,Khajrana,3,12000,yes,Tata
