@@ -6,7 +6,7 @@ def add_flat():
     is_available = input("Is available? (yes/no): ")
     builder_name = input("Enter builder name: ")
 
-    with open(r"C:\Users\kaznq\OneDrive\Desktop\Project\flats.txt", "a") as file:
+    with open("flats.txt", "a") as file:
         line = f"{flat_id},{locality},{bhk},{price_per_sqft},{is_available},{builder_name}\n"
         file.write(line)
 
